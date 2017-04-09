@@ -1,0 +1,10 @@
+set autoindent
+set brackets ""')>]}"
+set nowrap
+set titlecolor brightwhite,blue
+set statuscolor brightwhite,green
+set numbercolor cyan
+set keycolor brightwhite,cyan
+set functioncolor brightwhite
+
+include "/usr/share/nano/*.nanorc"
