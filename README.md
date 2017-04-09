@@ -7,6 +7,7 @@ curl -Lo ~/.nanorc https://raw.githubusercontent.com/YuanPre/nanorc/master/.nano
 or
 ```
 wget -O ~/.nanorc  https://raw.githubusercontent.com/YuanPre/nanorc/master/.nanorc
+```
 
 
 **EOF**
