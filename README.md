@@ -2,6 +2,11 @@
 This is my GNU nano configuration
 # INSTALL
 ```
-git clone https://github.com/YuanPre/nanorc.git ~/nanorc ; cp ~/nanorc/.nanorc ~/ ; rm -rf ~/nanorc
+curl -Lo ~/.nanorc https://raw.githubusercontent.com/YuanPre/nanorc/master/.nanorc
 ```
+or
+```
+wget -O ~/.nanorc  https://raw.githubusercontent.com/YuanPre/nanorc/master/.nanorc
+
+
 **EOF**
