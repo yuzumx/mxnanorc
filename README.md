@@ -15,7 +15,7 @@ wget -O ~/.nanorc  https://raw.githubusercontent.com/YuanPre/nanorc/master/.nano
 OR
   
 ```
-git clone https://github.com/YuanPre/nanorc.d.git ~/nano ; cp ~/nano/.nanorc ~/.nanorc ; rm -rf ~/nano
+git clone https://github.com/YuanPre/nanorc.git ~/nano ; cp ~/nano/.nanorc ~/.nanorc ; rm -rf ~/nano
 ```
   
 in your shell.
