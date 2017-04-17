@@ -1,11 +1,10 @@
 set autoindent
 set brackets ""')>]}"
-set quotestr "^([       ]*[#:>\|}])+"
 set nowrap
+set quotestr "^([       ]*[#:>\|}])+"
 set titlecolor brightwhite,blue
 set statuscolor brightwhite,green
-set numbercolor blue
-set keycolor brightwhite,yellow
-set functioncolor brightwhite
-
+set numbercolor cyan
+set keycolor brightwhite,cyan
+set functioncolor green
 include "/usr/share/nano/*.nanorc"
