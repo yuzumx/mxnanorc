@@ -5,21 +5,9 @@ This is my GNU nano configuration. I set colors and auto-quote and AI.
 * Installation
 
 Run commad in your shell:
-
+  
 #+BEGIN_SRC
-curl -Lo ~/.nanorc https://raw.githubusercontent.com/YuanPres/nanorc/master/.nanorc
+git clone https://github.com/YuanPres/nanorc.git ~/
 #+END_SRC
-
-OR
-
-#+BEGIN_SRC
-wget -O ~/.nanorc https://raw.githubusercontent.com/YuanPres/nanorc/master/.nanorc
-#+END_SRC
-
-OR
-
-#+BEGIN_SRC
-git clone https://github.com/YuanPres/nanorc.git ~/nano ; cp ~/nano/.nanorc ~/ ; rm -rf ~/nano
-#+END_SRC
-
+  
 *EOF*
