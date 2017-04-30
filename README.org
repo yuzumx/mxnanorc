@@ -1,6 +1,6 @@
 * Features
 
-This is my GNU nano configuration. I set colors and auto-quote.
+This is my GNU nano configuration. I set colors and auto-quote and AI.
 
 * Installation
 
