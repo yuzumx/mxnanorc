@@ -6,5 +6,5 @@ set titlecolor brightwhite,blue
 set statuscolor brightwhite,green
 set numbercolor cyan
 set keycolor brightwhite,cyan
-set functioncolor green
-include "/usr/share/nano/*.nanorc"
+set functioncolor red
+include "~/.nano/*.nanorc"
