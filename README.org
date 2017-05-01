@@ -10,4 +10,9 @@ Run commad in your shell:
 git clone https://github.com/YuanPres/nanorc.git ~/
 #+END_SRC
   
-*EOF*
+* Bug Report
+  
+  Please open issue on [[https://github.com/YuanPres/nanorc/issues][Yuanpres/nanorc/issues]], I'am Sorry, I *DO NOT* accept any other way.
+  
+  
+  *EOF*
