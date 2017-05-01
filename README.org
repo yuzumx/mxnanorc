@@ -12,7 +12,7 @@ git clone https://github.com/YuanPres/nanorc.git ~/
   
 * Bug Report
   
-  Please open issue on [[https://github.com/YuanPres/nanorc/issues][Yuanpres/nanorc/issues]], I'am Sorry, I *DO NOT* accept any other way.
+  Please open issue on [[https://github.com/YuanPres/nanorc/issues][YuanPres/nanorc/issues]], I'am Sorry, I *DO NOT* accept any other way.
   
   
   *EOF*
