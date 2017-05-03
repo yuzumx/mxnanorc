@@ -20,7 +20,7 @@ wget --no-check-certificate https://github.com/YuanPres/nanorc/raw/master/instal
   
 * Bug Report
   
-  Please open issue on [[https://github.com/YuanPres/nanorc/issues][YuanPres/nanorc/issues]], I'am Sorry, I *DO NOT* accept any other way.
+  Please open issue on [[https://github.com/YuanPres/nanorc/issues][YuanPres/nanorc/issues]], I'm Sorry, I *DO NOT* accept any other way.
   
   
   *EOF*
