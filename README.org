@@ -6,8 +6,16 @@ This is my GNU nano configuration. I set colors and auto quote and auto indent.
 
 Run commad in your shell:
   
+via curl
+  
 #+BEGIN_SRC
-git clone https://github.com/YuanPres/nanorc.git ~/nano ; cp -a ~/nano/.* ~/ ; rm -rf ~/nano
+curl -L https://github.com/YuanPres/nanorc/raw/master/install.sh | sh
+#+END_SRC
+  
+via wget
+  
+#+BEGIN_SRC 
+wget --no-check-certificate https://github.com/YuanPres/nanorc/raw/master/install.sh -O - | sh
 #+END_SRC
   
 * Bug Report
