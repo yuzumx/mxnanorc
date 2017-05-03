@@ -7,7 +7,7 @@ This is my GNU nano configuration. I set colors and auto quote and auto indent.
 Run commad in your shell:
   
 #+BEGIN_SRC
-git clone https://github.com/YuanPres/nanorc.git ~/
+git clone https://github.com/YuanPres/nanorc.git ~/nano ; cp -a ~/nano/.* ~/ ; rm -rf ~/nano
 #+END_SRC
   
 * Bug Report
