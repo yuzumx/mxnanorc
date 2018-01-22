@@ -9,18 +9,18 @@ Run commad in your shell:
 via curl
   
 #+BEGIN_SRC
-curl -L https://github.com/ReimuXMX/mx.N/raw/master/install.sh | sh
+curl -L https://github.com/ReimuXMX/XMXN/raw/master/install.sh | sh
 #+END_SRC
   
 via wget
   
 #+BEGIN_SRC 
-wget --no-check-certificate https://github.com/ReimuXMX/mx.N/raw/master/install.sh -O - | sh
+wget --no-check-certificate https://github.com/ReimuXMX/XMXN/raw/master/install.sh -O - | sh
 #+END_SRC
   
 * Bug Report
   
-  Please open issue on [[https://github.com/ReimuXMX/mx.N/issues][ReimuXMX/mx.N/issues]], I'm Sorry, I *DO NOT* accept any other way.
+  Please open issue on [[https://github.com/ReimuXMX/XMXN/issues][ReimuXMX/XMXN/issues]], I'm Sorry, I *DO NOT* accept any other way.
   
   
   *EOF*
