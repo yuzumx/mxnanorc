@@ -11,7 +11,7 @@
   via curl
 
   #+BEGIN_SRC
-curl -L https://github.com/ReimuXMX/XMXN/raw/master/install.sh | sh
+curl -fsSL https://github.com/ReimuXMX/XMXN/raw/master/install.sh | sh
   #+END_SRC
 
   via wget
