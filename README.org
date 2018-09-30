@@ -11,18 +11,18 @@
   via curl
 
   #+BEGIN_SRC
-curl -fsSL https://github.com/ReimuXMX/XMXN/raw/master/install.sh | sh
+curl -fsSL https://github.com/re-mx/mxnanorc/raw/master/install.sh | sh
   #+END_SRC
 
   via wget
 
   #+BEGIN_SRC
-wget --no-check-certificate https://github.com/ReimuXMX/XMXN/raw/master/install.sh -O - | sh
+wget --no-check-certificate https://github.com/re-mx/mxnanorc/raw/master/install.sh -O - | sh
   #+END_SRC
 
 * Bug Report
 
-  Please open issue on [[https://github.com/ReimuXMX/XMXN/issues][ReimuXMX/XMXN/issues]], I'm Sorry, I *DO NOT* accept any other way.
+  Please open issue on [[https://github.com/re-mx/mxnanorc/issues][re-mx/mxnanorc/issues]], I'm Sorry, I *DO NOT* accept any other way.
 
 
   *EOF*
