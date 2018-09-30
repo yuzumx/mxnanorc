@@ -54,13 +54,3 @@ if installablep; then
     install_mxnanorc
     $echo_e ""$e_bold"Thank you for your using!"$e_end"\n"
 fi
-
-unest frm
-unest clonedir
-unest copy
-unest echo_e
-unest e_red
-unest e_bold
-unest e_end
-unest per_error
-unest bp_warning
