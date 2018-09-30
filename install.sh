@@ -1,38 +1,55 @@
 #!/usr/bin/env bash
 
-frm="/bin/rm -rfv"
+frm="/bin/rm -rf"
+clonedir="$HOME/mxnanorc"
 copy="/bin/cp -prv"
-ece="/bin/echo -e"
-ec_bb="\033[46;30m"
-ec_0="\033[0m"
-ec_pr="$0 ERROR: Permission Denied"
+echo_e="/bin/echo -e"
+e_red="\033[31m"
+e_bold="\033[1m"
+e_end="\033[0m"
+per_error="$0 ERROR: Permission Denied"
+bp_warning="Please backup and delete it before installation."
 
-$ece "\n"$ec_bb"Welcome to use my GNU nano confguration"$ec_0"\n"
-echo "Copyright (C) 2017 YuanYuan in BLMF club"
-echo "Lincesed under by GNU GPLv3+: GNU GPL 3 and later <http://www.gnu.org/licenses/gpl.html>"
-$ece "This is free software; you are free to change and redistribute it.\n"
+function installablep() {
+    if [ ! -e /usr/bin/git ]; then
+        echo "You don't have git. Please install it by your package manager before installation."
+        exit 1
+    fi
 
-if [ ! -e /usr/bin/git ]; then
-    echo "You don't have git. Please install it by your package manager before installation."
-    exit 1
+    if [ ! -w $HOME ]; then
+        $echo_e "$per_error"
+        exit 1
+    fi
+
+    if [ -e $HOME/.nanorc ] || [ -e $HOME/.nano ]; then
+        echo "Nano configuration (~/.nanorc and/or ~/.nano) already exists."
+        echo "$bp_warning"
+        exit 1
+    elif [ -e $clonedir ]; then
+        echo "The clone target directory (~/mxnanorc) already exists."
+        echo "$bp_warning"
+        exit 1
+    else
+        return 0
+    fi
+}
+
+function install_mxnanorc() {
+    $echo_e "\n"$e_bold"Start Installation!"$e_end"\n"
+    git clone https://github.com/re-mx/mxnanorc.git $clonedir
+    $echo_e "\nStart copy...\n"
+    $copy $clonedir/.nanorc $HOME/
+    $copy $clonedir/.nano $HOME/
+    $frm $clonedir
+    $echo_e "\n"$e_bold"Installation Completed!"$e_end""
+}
+
+$echo_e "\n"$e_bold"Welcome to use my GNU nano confguration"$e_end"\n"
+echo "Copyright (C) 2017-2018 MX Reium in BLMF club"
+echo "License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>"
+$echo_e "This is free software; you are free to change and redistribute it.\n"
+
+if installablep; then
+    install_mxnanorc
+    $echo_e ""$e_bold"Thank you for your using!"$e_end"\n"
 fi
-
-if [ ! -w $HOME ]; then
-    $ece "$ec_pr"
-    exit 1
-elif [ -e $HOME/nanorc ]; then
-    echo "The nanorc is exist, Please remove it before installation."
-    exit 1
-elif [ -e $HOME/.nanorc ] || [ -e $HOME/.nano ]; then
-    echo "The .nanorc and/or .nano is exist, Please remove it before installation."
-    exit 1
-else
-    $ece "\n"$ec_bb"Start Installation!"$ec_0"\n"
-    git clone https://github.com/YuanPres/nanorc.git ~/nanorc
-    $copy ~/nanorc/.nano ~/
-    $copy ~/nanorc/.nanorc ~/
-    $frm ~/nanorc
-fi
-
-$ece "\n"$ec_bb"Installation Completed!"$ec_0""
-$ece ""$ec_bb"Thank you for your using!"$ec_0"\n"
