@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# -*- coding: utf-8; -*-
 
 frm="/bin/rm -rf"
 clonedir="$HOME/mxnanorc"
