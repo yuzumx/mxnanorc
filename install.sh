@@ -45,7 +45,7 @@ function install_mxnanorc() {
 }
 
 $echo_e "\n"$e_bold"Welcome to use my GNU nano confguration"$e_end"\n"
-echo "Copyright (C) 2017-2018 MX Reium in BLMF club"
+echo "Copyright (C) 2017-2018 MX Reium in BLF club"
 echo "License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>"
 $echo_e "This is free software; you are free to change and redistribute it.\n"
 
