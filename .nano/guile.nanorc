@@ -1,8 +1,7 @@
 ## Here is an example for Guile Scheme.
 
-syntax "guile" "\.scm$"
+syntax guile "\.scm$"
 header "^#!.*guile"
-magic "guile"
 comment ";"
 
 # Basic scheme functions
