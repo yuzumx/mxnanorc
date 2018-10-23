@@ -14,13 +14,13 @@
   via curl
 
   #+BEGIN_SRC
-curl -fsSL https://github.com/re-mx/mxnanorc/raw/master/install.sh | sh
+  curl -L https://github.com/re-mx/mxnanorc/raw/master/install.sh | sh
   #+END_SRC
 
   via wget
 
   #+BEGIN_SRC
-wget --no-check-certificate https://github.com/re-mx/mxnanorc/raw/master/install.sh -O - | sh
+  wget --no-check-certificate https://github.com/re-mx/mxnanorc/raw/master/install.sh -O - | sh
   #+END_SRC
 
 * Bug Report
