@@ -35,7 +35,7 @@ function installablep() {
     fi
 }
 
-function install_mxnanorc() {
+function install-mxnanorc() {
     $echo_e "\n"$e_bold"Start Installation!"$e_end"\n"
     git clone https://github.com/re-mx/mxnanorc.git $clonedir
     $echo_e "\nStart copy...\n"
@@ -51,6 +51,6 @@ echo "License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.ht
 $echo_e "This is free software; you are free to change and redistribute it.\n"
 
 if installablep; then
-    install_mxnanorc
+    install-mxnanorc
     $echo_e ""$e_bold"Thank you for your using!"$e_end"\n"
 fi
