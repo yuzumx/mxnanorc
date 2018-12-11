@@ -1,7 +1,7 @@
 # -*- coding: utf-8; -*-
 
-[[https://www.gnu.org/software/emacs/][file:https://img.shields.io/badge/built%20with-Emacs-f596aa.svg]]
-[[https://gitee.com/re-mx/mxem][file:https://img.shields.io/badge/built%20with-mxem-f596aa.svg]]
+[[https://www.gnu.org/software/emacs/][https://img.shields.io/badge/built%20with-Emacs-f596aa.svg]]
+[[https://gitee.com/re-mx/mxem][https://img.shields.io/badge/built%20with-mxem-f596aa.svg]]
 
 * Features
 
